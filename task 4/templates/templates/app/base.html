@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'bower_components/bootstrap/dist/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'bower_components/fullcalendar/dist/fullcalendar.min.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/main.css' %}">
+</head>
+<body>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+<script src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
+<script src="{% static 'bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'bower_components/moment/min/moment.min.js' %}"></script>
+<script src="{% static 'bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js' %}"></script>
+<script src="{% static 'bower_components/fullcalendar/dist/fullcalendar.min.js' %}"></script>
+<script src="{% static 'app/js/main.js' %}"></script>
+{% block js %}{% endblock %}
+</html>
