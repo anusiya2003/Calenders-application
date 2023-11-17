@@ -1,0 +1,51 @@
+body{
+    background-color: snow;
+}
+.title-name{
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+.sub-title{
+    color: gray;
+    text-align:center
+   
+}
+.aboutme{
+    color: gray;
+}
+.workexperience{
+    color: gray;
+}
+.projects{
+    color: gray;
+}
+.education{
+    color: gray;
+}
+.skills{
+    color: gray;
+}
+.interest{
+    color: gray;
+}
+
+table{
+    width: 100%;
+}
+table,th,tr,td{
+    border: 2px solid;
+}
+tr{
+    padding: 4px;
+    width: 10px;
+    height:10px;
+}
+td{
+    padding: 4px;
+    width: 10px;
+    height:10px;
+}
+th{
+    color: gray;
+}
