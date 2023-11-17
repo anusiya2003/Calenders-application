@@ -1,0 +1,24 @@
+{
+  "name": "static",
+  "authors": [
+    "Tim <sarrtim@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullcalendar": "^3.4.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^2.2.4",
+    "moment": "^2.15.1",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47"
+  }
+}
